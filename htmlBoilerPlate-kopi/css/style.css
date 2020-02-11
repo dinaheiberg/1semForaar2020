@@ -1,3 +1,88 @@
 /**
  * fil: css/style.css
  **/
+
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+body{
+    background-color: black; /* bg farve*/
+    background-image: url(../images/5da5cf239292f400015b23e8_o_F_v1.jpg); /*bg im*/
+    color: #ffffff; /* txt farves*/
+    background-size: 2000px; 
+    background-repeat: no-repeat;
+}
+
+p {
+    color: white;
+    background-color: firebrick;
+    width: 50%;
+    font-size: large;
+    font-family: 'Indie Flower', cursive;
+    
+    padding: 24px;
+    margin: 48xp;
+        
+}
+
+h1 {
+    margin-left: 300px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 40px;
+    color: firebrick;
+}
+
+/* en id tag */
+#et {
+    position: relative;
+    top: 70px;
+    color: aliceblue;
+    opacity: 0.6;
+    margin-left: 300px;
+    
+}
+
+.to {
+    position: relative;
+    top: 70px;
+    color: aliceblue;
+    opacity: 0.6;
+    margin-left: 300px;
+}
+
+.galleri {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+nav {
+    background-color: black;
+    color: firebrick;
+    padding: 1em 1em 1em 1em;
+    Position: fixed;
+    top: 90px;
+    z-index: 1;
+    
+    width: 100%;
+    
+        
+}
+nav ul li a {
+    color: firebrick;
+    text-decoration: none;
+    padding: 12em;
+
+}
+nav ul li a:hover {
+    color: aliceblue
+}
+nav ul li {
+display: inline;
+    
+    
+}
+footer {
+    color: firebrick;
+}
